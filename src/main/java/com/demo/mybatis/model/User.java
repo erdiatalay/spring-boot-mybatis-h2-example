@@ -12,9 +12,15 @@ public class User
         // Default Empty Constructor
     }
 
+    public User(String name, String emailId, Long salary)
+    {
+        this.name = name;
+        this.emailId = emailId;
+        this.salary = salary;
+    }
+
     public User(Integer id, String name, String emailId, Long salary)
     {
-        super();
         this.id = id;
         this.name = name;
         this.emailId = emailId;
